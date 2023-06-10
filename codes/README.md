@@ -8,4 +8,4 @@ genereal_info.py: includes codes that plot the main attributes of the individual
 
 ml_algorithm.py: code that utilizes machine learning methods to predict parties given the information that is in the data about individuals.
 
-
+abortion_ban.py, death_penalty_and_journalism.py, economy_and_privatization.py, new_party_to_parliament.py, and wish_for_a_secular_state_and_alcohol_ban.py are the code used to plot the graphs for their respective questions in the dataset.
