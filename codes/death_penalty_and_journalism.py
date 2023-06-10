@@ -1,6 +1,6 @@
 # Mert Kağan AYCAN 29489
 
-# Death Penalty by Age Group
+
 support_death_penalty_age = data[data['DEATH_PENALTY'] == 'Yes'].groupby('Age').size()
 oppose_death_penalty_age = data[data['DEATH_PENALTY'] == 'No'].groupby('Age').size()
 total_by_age = data.groupby('Age').size()
@@ -19,7 +19,7 @@ plt.title('Percentage of Support and Opposition for Death Penalty by Age Group')
 plt.legend(title='Position on Death Penalty')
 plt.show()
 
-# Death Penalty by Party
+
 support_death_ban = data[data['DEATH_PENALTY'] == 'Yes'].groupby('Party').size()
 oppose_death_ban = data[data['DEATH_PENALTY'] == 'No'].groupby('Party').size()
 total_by_party = data.groupby('Party').size()
@@ -37,7 +37,7 @@ plt.title('Percentage of Agreement and Disagreement on neutrality of journalists
 plt.legend(title='Position on neutrality of journalists')
 plt.show()
 
-# Neutrality of Journalists by Age Group
+
 def calculate_percentage(position, position_label):
     party_position = data[data['FREE_MEDIA'] == position].groupby('Age').size()
     percentage = (party_position / total_by_party * 100).reset_index(name='Percentage')
