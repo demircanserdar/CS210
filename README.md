@@ -37,5 +37,3 @@ and their answers to following quesitons:
 
 
 codes: Python codes that are used to plot the figures and implement machine learning algorithm.
-
-figures: Contains the figures plotted using the codes.
