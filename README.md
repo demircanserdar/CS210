@@ -13,7 +13,7 @@ Files in this repository:
 
 data: The data used in this project. Consists of three csv files containing the following information: "Age", "Gender", "Region", "Education", and (political) "Party" of a group of individuals
 and their answers to following quesitons:
-
+(Please note that 9th question is excluded as it was seen outdated for this research.)
 
 1-Do you think our Economic Status is good?
 
