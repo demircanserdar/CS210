@@ -7,6 +7,8 @@ Hypothesis: People's opinions about social, economic, legal and educational prob
 
 Aim: To understand the voter profile of Turkey with respect to some of their attributes (age, region, gender etc.) and analyze and show the findings as well as utilizing a machine learning algorithm to predict the supported party of an individiual based on their answers to some political questions and attributes.
 
+Findings: The analysis on the data showed that there is a strong correlation between one's political beliefs and their social attributes and supported party..
+
 Files in this repository:
 
 
